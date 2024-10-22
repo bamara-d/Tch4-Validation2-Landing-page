@@ -179,8 +179,6 @@ nav ul li{
   grid-template-columns: repeat(4, 1fr);
 }
 .sect4 .box4 .box{
-  /* width: 339.5x; */
-  /* min-width: 340px; */
   height: 275px;
   display: flex;
   justify-content: center;
@@ -283,7 +281,6 @@ h1, p {
   border-radius: 20px;
   position: relative;
 }
-
 .barre2 {
   width: 295px;
   height: 11px;
@@ -292,7 +289,6 @@ h1, p {
   position: relative;
   
 }
-
 .barre2a {
   z-index: 1;
   width: 250px;
@@ -300,8 +296,6 @@ h1, p {
   background-color: #A5C0AD;
   border-radius: 20px; 
   position: absolute;
-  /* top: 359.2vh; */
-  /* left: 268px; */
 }
 .barre3 {
   width: 295px;
