@@ -176,11 +176,11 @@ nav ul li{
 .sect4 .box4{
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fill, 339.5px);
+  grid-template-columns: repeat(4, 1fr);
 }
 .sect4 .box4 .box{
-  width: 339.5x;
-  min-width: 340px;
+  /* width: 339.5x; */
+  /* min-width: 340px; */
   height: 275px;
   display: flex;
   justify-content: center;
@@ -285,56 +285,53 @@ h1, p {
 }
 
 .barre2 {
-  width: 250px;
-  height: 11px;
-  background-color: #A5C0AD;
-  border-radius: 20px;
-  position: relative;
-  z-index: 1;
-}
-.barre2a {
   width: 295px;
   height: 11px;
   background-color: #d6d6d6;
+  border-radius: 20px;
+  position: relative;
+  
+}
+
+.barre2a {
+  z-index: 1;
+  width: 250px;
+  height: 11px;
+  background-color: #A5C0AD;
   border-radius: 20px; 
   position: absolute;
-  top: 359.2vh;
-  left: 268px;
+  /* top: 359.2vh; */
+  /* left: 268px; */
 }
 .barre3 {
+  width: 295px;
+  height: 11px;
+  background-color: #d6d6d6;
+  border-radius: 20px;
+  position: relative;
+}
+.barre3a {
   width: 260px;
   height: 11px;
   background-color: #A5C0AD;
   border-radius: 20px;
-  position: relative;
+  position: absolute;
   z-index: 1;
 }
-.barre3a {
+.barre4 {
   width: 295px;
   height: 11px;
   background-color: #d6d6d6;
   border-radius: 20px;
   position: relative;
-  position: absolute;
-  top: 345.2vh;
-  left: 801px;
 }
-.barre4 {
+.barre4a {
   width: 240px;
   height: 11px;
   background-color: #A5C0AD;
   border-radius: 20px;
-  position: relative;
-  z-index: 1;
-}
-.barre4a {
-  width: 295px;
-  height: 11px;
-  background-color: #d6d6d6;
-  border-radius: 20px;
   position: absolute;
-  top: 359.2vh;
-  left: 801px;
+  z-index: 1;
 }
 
 
