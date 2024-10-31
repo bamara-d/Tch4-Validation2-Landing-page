@@ -208,6 +208,13 @@ nav ul li{
 .boxh{
   background-color: #A5C0AD;
 }
+@media (max-width: 767px) {
+  .sect4 .box4{
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
 
 /* --------------- Section 5 --------------- */
 .sect5{
@@ -332,7 +339,7 @@ h1, p {
 /* --------------- Section 6 --------------- */
 .sect6 {
   /* width: 100%; */
-  height: 629px;
+  height: 630px;
   background-color: #A5C0AD;
 }
 .box6 {
@@ -517,16 +524,19 @@ flex-direction: column;
   .sect3 .box3{
    height: 286px;
   }
+  .box5b-right .box5b-range{
+    margin-left: 20px;
+  }
   .box3a {
     display: flex;
     flex-direction: column;
   }
   .sect4 {
-    height: 371vh;
+    height: 301vh;
     padding-top: 20px;
   }
   .sect6 {
-    height: 273vh;
+    height: 223vh;
   }
   .box6b {
     height: 154vh;
@@ -554,27 +564,12 @@ flex-direction: column;
     margin-left: -3px;
     padding-right: 35px;
   }
-  .barre2a {
-    top: 703.6vh;
-    left: 40px;
-  }
-  .barre3a {
-    top: 714vh;
-    left: 40px;
-  }
   .pct3{
     right: -35px;
   }
-  .barre4a {
-    top: 724.5vh;
-    left: 40px;
-  }
+
   .sect7{
-    height: 75vh;
-  }
-  .sect7 .box7 {
-    height: 159vh;
-    gap: 0px;
+    height: 61vh;
   }
   .box7 img {
     margin-top: 0vh;
@@ -583,6 +578,6 @@ flex-direction: column;
     margin-top: 20px;
   }
   footer{
-    height: 597px;
+    height: 567px;
   }
 }
